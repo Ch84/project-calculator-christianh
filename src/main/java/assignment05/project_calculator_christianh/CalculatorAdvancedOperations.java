@@ -18,9 +18,9 @@ public class CalculatorAdvancedOperations implements CalculatorAdvancedOperation
 	}
 
 	public double log(double value) {
-		
-		return Math.log(value);
-	}
+			
+			return Math.log(value);
+		}
 
 	public double toDegrees(double value) {
 		
