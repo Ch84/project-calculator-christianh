@@ -221,7 +221,7 @@ public class CalculatorAdvancedOperationsTest {
 		}
 	}
 	@Test
-	public void testtoRadians() {
+	public void testtoRadiansWithPositiveNumbers() {
 		double value = 0;
 		double result = 0;
 		
@@ -231,6 +231,35 @@ public class CalculatorAdvancedOperationsTest {
 			
 			LOG.info("Testing the method to radians with: " + value);
 			assertEquals(Math.round(calculator.toRadians(value)), Math.round(result), 1);
+		}
+	}
+	@Test
+	public void testtoRadiansWithNegativeNumbers() {
+		double value = 0;
+		double result = 0;
+		
+		for (int k=0; k<50; k++) {
+			value = Double.valueOf(df.format(random.nextDouble()*-1000));
+			result = Math.toRadians(value);
+			
+			LOG.info("Testing the method to radians with: " + value);
+			assertEquals(Math.round(calculator.toRadians(value)), Math.round(result), 1);
+		}
+	}
+	@Test
+	public void testtoRadiansWithZeros() {
+		double value = 0;
+		double result = 0;
+		
+		LOG.info("Testing the method to radians with: " + value);
+		assertEquals(Math.round(calculator.toRadians(value)), Math.round(result), 1);
+		
+		for (int k=0; k<50; k++) {
+			value = Double.valueOf(df.format(random.nextDouble()*1000));
+			result = Math.toRadians(value);
+			
+			LOG.info("Testing the method to radians with: " + value);
+			assertEquals(Math.round(calculator.toRadians(value)), result, 1);
 		}
 	}
 }
