@@ -72,7 +72,83 @@ public class CalculatorBasicOperationsTest {
 			
 			LOG.info("Testing the method addition with: " + firstNumber + secondNumber);
 			assertEquals(Math.round(calculator.addition(firstNumber, secondNumber)), Math.round(result), 1);
+	}
+	
+	@Test
+	public void testSubtractionWithPositiveNumbers() {
+		double firstNumber = 0.0;
+		double secondNumber = 0.0;
+		double result = 0.0;
+		
+		for (int k=0; k<50; k++) {
+			firstNumber = Double.valueOf(df.format(random.nextDouble()*10));
+			secondNumber = Double.valueOf(df.format(random.nextDouble()*10));
+			result = firstNumber - secondNumber;
+			
+			LOG.info("Testing the method subtraction with: " + firstNumber + secondNumber);
+			assertEquals(Math.round(calculator.subtraction(firstNumber, secondNumber)), Math.round(result), 1);
+			
+		}
+		
+	}
+	@Test
+	public void testSubtractionWithNegativeNumbers() {
+		double firstNumber = 0.0;
+		double secondNumber = 0.0;
+		double result = 0.0;
+		
+		for (int k=0; k<50; k++) {
+			firstNumber = Double.valueOf(df.format(random.nextDouble()*-10));
+			secondNumber = Double.valueOf(df.format(random.nextDouble()*-10));
+			result = firstNumber - secondNumber;
+			
+			LOG.info("Testing the method subtraction with: " + firstNumber + secondNumber);
+			assertEquals(Math.round(calculator.subtraction(firstNumber, secondNumber)), Math.round(result), 1);
+			
+		}
+		
+	}
+	@Test 
+	public void testSubtractionWithZero() {
+		double firstNumber = 0;
+		double secondNumber = 0;
+		double result = firstNumber - secondNumber;
+		
+		LOG.info("Testing the method subtraction with: " + firstNumber + secondNumber);
+		assertEquals(Math.round(calculator.subtraction(firstNumber, secondNumber)), Math.round(result), 1);
+		
+		for (int k=0; k<50; k++) {
+			firstNumber = 0;
+			secondNumber = Double.valueOf(df.format(random.nextDouble()*10));
+			result = firstNumber - secondNumber;
+			
+			LOG.info("Testing the method subtraction with: " + firstNumber + secondNumber);
+			assertEquals(Math.round(calculator.subtraction(firstNumber, secondNumber)), Math.round(result), 1);
+			
+		}
+		firstNumber = Double.valueOf(df.format(random.nextDouble()*10));
+		secondNumber = 0;
+		result = firstNumber - secondNumber;
+		
+		LOG.info("Testing the method subtraction with: " + firstNumber + secondNumber);
+		assertEquals(Math.round(calculator.subtraction(firstNumber, secondNumber)), Math.round(result), 1);
+	}
+	@Test
+	public void testMultiplicationWithPositiveNumbers() {
+		double firstNumber = 0.0;
+		double secondNumber = 0.0;
+		double result = 0.0;
+		
+		for (int k=0; k<50; k++) {
+			firstNumber = Double.valueOf(df.format(random.nextDouble()*1000));
+			secondNumber = Double.valueOf(df.format(random.nextDouble()*1000));
+			result = firstNumber * secondNumber;
+			
+			LOG.info("Testing the method multiplication with: " + firstNumber + secondNumber);
+			assertEquals(Math.round(calculator.multiplication(firstNumber, secondNumber)), Math.round(result), 1);
+		
 		}
 	}
+}
 
 
