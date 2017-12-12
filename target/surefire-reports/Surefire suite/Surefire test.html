@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 12 17:55:08 CET 2017</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2837 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testAdditionWithNegativeNumbers()'><b>testAdditionWithNegativeNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testAdditionWithPositiveNumbers()'><b>testAdditionWithPositiveNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testAdditionWithZero()'><b>testAdditionWithZero</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionWithZero(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testDivisionWithNegativeNumbers()'><b>testDivisionWithNegativeNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testDivisionWithPositiveNumbers()'><b>testDivisionWithPositiveNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testDivisionWithZeros()'><b>testDivisionWithZeros</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionWithZeros(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testLogWithNegativeNumbers()'><b>testLogWithNegativeNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testLogWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testLogWithPositiveNumbers()'><b>testLogWithPositiveNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testLogWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testMultiplicationWithNegativeNumbers()'><b>testMultiplicationWithNegativeNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testMultiplicationWithPositiveNumbers()'><b>testMultiplicationWithPositiveNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testMultiplicationWithZeros()'><b>testMultiplicationWithZeros</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationWithZeros(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testRandomWithNegativeNumbers()'><b>testRandomWithNegativeNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testRandomWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testRandomWithPositiveNumbers()'><b>testRandomWithPositiveNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testRandomWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testRandomWithZeros()'><b>testRandomWithZeros</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testRandomWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testSquareWithNegativeNumbers()'><b>testSquareWithNegativeNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testSquareWithPositiveNumbers()'><b>testSquareWithPositiveNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testSquareWithZeros()'><b>testSquareWithZeros</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testSubtractionWithNegativeNumbers()'><b>testSubtractionWithNegativeNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testSubtractionWithPositiveNumbers()'><b>testSubtractionWithPositiveNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorBasicOperationsTest.testSubtractionWithZero()'><b>testSubtractionWithZero</b><br>Test class: assignment05.project_calculator_christianh.CalculatorBasicOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionWithZero(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testabsoluteValueWithNegativeNumbers()'><b>testabsoluteValueWithNegativeNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testabsoluteValueWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testabsoluteValueWithPositiveNumbers()'><b>testabsoluteValueWithPositiveNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testabsoluteValueWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testabsoluteValueWithZeros()'><b>testabsoluteValueWithZeros</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testabsoluteValueWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testtoDegreesWithNegativeNumbers()'><b>testtoDegreesWithNegativeNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testtoDegreesWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testtoDegreesWithPositiveNumbers()'><b>testtoDegreesWithPositiveNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testtoDegreesWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testtoDegreesWithZeros()'><b>testtoDegreesWithZeros</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testtoDegreesWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testtoRadiansWithNegativeNumbers()'><b>testtoRadiansWithNegativeNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testtoRadiansWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testtoRadiansWithPositiveNumbers()'><b>testtoRadiansWithPositiveNumbers</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testtoRadiansWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+<tr>
+<td title='assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest.testtoRadiansWithZeros()'><b>testtoRadiansWithZeros</b><br>Test class: assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>testtoRadiansWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)</td></tr>
+</table><p>
+</body>
+</html>
