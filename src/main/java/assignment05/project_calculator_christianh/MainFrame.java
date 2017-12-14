@@ -96,7 +96,7 @@ public class MainFrame {
 				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());
 				double secondNumber = Double.parseDouble(tfSecondNumber.getText().toString());
 				double result = calculator.addition(firstNumber, secondNumber);
-				lblResult.setText("Result " + result);
+				lblResult.setText("Result: " + result);
 			}
 		});
 		btnNewButton_3.setBounds(349, 135, 79, 25);
@@ -119,33 +119,66 @@ public class MainFrame {
 		JButton btnNewButton_4 = new JButton("x2");
 		btnNewButton_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-			
+				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());
+				double result = calc.square(firstNumber);
+				lblResult.setText("Result: " + result);
 			}
 		});
 		btnNewButton_4.setBounds(12, 109, 87, 25);
 		frmCalculator.getContentPane().add(btnNewButton_4);
 		
-		JButton btnNewButton_5 = new JButton("AC");
+		JButton btnNewButton_5 = new JButton("RND");
+		btnNewButton_5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());
+				double result = calc.random(firstNumber);
+				lblResult.setText("Result: " + result);
+			}
+		});
 		btnNewButton_5.setBounds(12, 135, 87, 25);
 		frmCalculator.getContentPane().add(btnNewButton_5);
 		
-		JButton btnNewButton_6 = new JButton("(");
+		JButton btnNewButton_6 = new JButton("ABS");
+		btnNewButton_6.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());
+				double result = calc.absoluteValue(firstNumber);
+				lblResult.setText("Result: " + result);
+			}
+		});
 		btnNewButton_6.setBounds(12, 159, 87, 25);
 		frmCalculator.getContentPane().add(btnNewButton_6);
 		
-		JButton btnNewButton_7 = new JButton(")");
-		btnNewButton_7.setBounds(106, 159, 87, 25);
-		frmCalculator.getContentPane().add(btnNewButton_7);
-		
 		JButton btnNewButton_8 = new JButton("log");
+		btnNewButton_8.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());
+				double result = calc.log(firstNumber);
+				lblResult.setText("Result: " + result);
+			}
+		});
 		btnNewButton_8.setBounds(12, 184, 87, 25);
 		frmCalculator.getContentPane().add(btnNewButton_8);
 		
 		JButton btnNewButton_9 = new JButton("deg");
+		btnNewButton_9.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());
+				double result = calc.toDegrees(firstNumber);
+				lblResult.setText("Result: " + result);
+			}
+		});
 		btnNewButton_9.setBounds(12, 208, 87, 25);
 		frmCalculator.getContentPane().add(btnNewButton_9);
 		
 		JButton btnNewButton_10 = new JButton("rad");
+		btnNewButton_10.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());
+				double result = calc.toRadians(firstNumber);
+				lblResult.setText("Result: " + result);
+			}
+		});
 		btnNewButton_10.setBounds(12, 235, 87, 25);
 		frmCalculator.getContentPane().add(btnNewButton_10);
 		

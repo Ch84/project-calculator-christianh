@@ -1,5 +1,7 @@
 package assignment05.project_calculator_christianh;
 
+import java.util.Random;
+
 /**
  * This is my super class file for my interface. Here I have implemented
  * the functions for my advanced calculator that is used down below.
@@ -34,8 +36,9 @@ public class CalculatorAdvancedOperations implements CalculatorAdvancedOperation
 	 * @return (Math.random() * (value - value) + value)
 	 */
 	public double random(double value) {
+		Random random = new Random();
 		
-		return (Math.random() * (value - value) + value);
+		return random.nextDouble() * value;
 	}
 	/**
 	 * This is my constructor that takes the in parameter value
