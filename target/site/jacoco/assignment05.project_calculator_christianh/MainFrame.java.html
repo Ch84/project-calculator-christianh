@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MainFrame.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">project-calculator-christianh</a> &gt; <a href="index.source.html" class="el_package">assignment05.project_calculator_christianh</a> &gt; <span class="el_source">MainFrame.java</span></div><h1>MainFrame.java</h1><pre class="source lang-java linenums">package assignment05.project_calculator_christianh;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
+
+public class MainFrame {
+
+	private JFrame frmCalculator;
+<span class="nc" id="L15">	CalculatorBasicOperations calculator = new CalculatorBasicOperations();</span>
+
+	private JTextField tfFirstNumber;
+	private JTextField tfSecondNumber;
+<span class="nc" id="L19">	JLabel lblResult = new JLabel(&quot;Result: &quot;);</span>
+	
+<span class="nc" id="L21">	CalculatorAdvancedOperations calc = new CalculatorAdvancedOperations();</span>
+	private JTextField textField;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+<span class="nc" id="L28">		EventQueue.invokeLater(new Runnable() {</span>
+			public void run() {
+				try {
+<span class="nc" id="L31">					MainFrame window = new MainFrame();</span>
+<span class="nc" id="L32">					window.frmCalculator.setVisible(true);</span>
+<span class="nc" id="L33">				} catch (Exception e) {</span>
+<span class="nc" id="L34">					e.printStackTrace();</span>
+<span class="nc" id="L35">				}</span>
+<span class="nc" id="L36">			}</span>
+		});
+<span class="nc" id="L38">	}</span>
+
+	/**
+	 * Create the application.
+	 */
+<span class="nc" id="L43">	public MainFrame() {</span>
+<span class="nc" id="L44">		initialize();</span>
+<span class="nc" id="L45">	}</span>
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+<span class="nc" id="L51">		frmCalculator = new JFrame();</span>
+<span class="nc" id="L52">		frmCalculator.setTitle(&quot;Calculator&quot;);</span>
+<span class="nc" id="L53">		frmCalculator.setBounds(100, 100, 450, 300);</span>
+<span class="nc" id="L54">		frmCalculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);</span>
+<span class="nc" id="L55">		frmCalculator.getContentPane().setLayout(null);</span>
+		
+<span class="nc" id="L57">		JButton btnNewButton = new JButton(&quot;/&quot;);</span>
+<span class="nc" id="L58">		btnNewButton.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L60">				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());</span>
+<span class="nc" id="L61">				double secondNumber = Double.parseDouble(tfSecondNumber.getText().toString());				</span>
+<span class="nc" id="L62">				double result = calculator.division(firstNumber, secondNumber);</span>
+<span class="nc" id="L63">				lblResult.setText(&quot;Result: &quot;+ result);</span>
+<span class="nc" id="L64">			}</span>
+		});
+<span class="nc" id="L66">		btnNewButton.setBounds(349, 48, 79, 25);</span>
+<span class="nc" id="L67">		frmCalculator.getContentPane().add(btnNewButton);</span>
+		
+<span class="nc" id="L69">		JButton btnNewButton_1 = new JButton(&quot;X&quot;);</span>
+<span class="nc" id="L70">		btnNewButton_1.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L72">				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());</span>
+<span class="nc" id="L73">				double secondNumber = Double.parseDouble(tfSecondNumber.getText().toString());</span>
+<span class="nc" id="L74">				double result = calculator.multiplication(firstNumber, secondNumber);</span>
+<span class="nc" id="L75">				lblResult.setText(&quot;Result: &quot; + result);</span>
+<span class="nc" id="L76">			}</span>
+		});
+<span class="nc" id="L78">		btnNewButton_1.setBounds(349, 80, 79, 25);</span>
+<span class="nc" id="L79">		frmCalculator.getContentPane().add(btnNewButton_1);</span>
+		
+<span class="nc" id="L81">		JButton btnNewButton_2 = new JButton(&quot;-&quot;);</span>
+<span class="nc" id="L82">		btnNewButton_2.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L84">				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());</span>
+<span class="nc" id="L85">				double secondNumber = Double.parseDouble(tfSecondNumber.getText().toString());</span>
+<span class="nc" id="L86">				double result = calculator.subtraction(firstNumber, secondNumber);</span>
+<span class="nc" id="L87">				lblResult.setText(&quot;Result: &quot; + result);</span>
+<span class="nc" id="L88">			}</span>
+		});
+<span class="nc" id="L90">		btnNewButton_2.setBounds(349, 109, 79, 25);</span>
+<span class="nc" id="L91">		frmCalculator.getContentPane().add(btnNewButton_2);</span>
+		
+<span class="nc" id="L93">		JButton btnNewButton_3 = new JButton(&quot;+&quot;);</span>
+<span class="nc" id="L94">		btnNewButton_3.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L96">				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());</span>
+<span class="nc" id="L97">				double secondNumber = Double.parseDouble(tfSecondNumber.getText().toString());</span>
+<span class="nc" id="L98">				double result = calculator.addition(firstNumber, secondNumber);</span>
+<span class="nc" id="L99">				lblResult.setText(&quot;Result: &quot; + result);</span>
+<span class="nc" id="L100">			}</span>
+		});
+<span class="nc" id="L102">		btnNewButton_3.setBounds(349, 135, 79, 25);</span>
+<span class="nc" id="L103">		frmCalculator.getContentPane().add(btnNewButton_3);</span>
+		
+<span class="nc" id="L105">		tfFirstNumber = new JTextField();</span>
+<span class="nc" id="L106">		tfFirstNumber.setBounds(123, 12, 209, 19);</span>
+<span class="nc" id="L107">		frmCalculator.getContentPane().add(tfFirstNumber);</span>
+<span class="nc" id="L108">		tfFirstNumber.setColumns(10);</span>
+		
+<span class="nc" id="L110">		tfSecondNumber = new JTextField();</span>
+<span class="nc" id="L111">		tfSecondNumber.setText(&quot;&quot;);</span>
+<span class="nc" id="L112">		tfSecondNumber.setBounds(123, 51, 209, 19);</span>
+<span class="nc" id="L113">		frmCalculator.getContentPane().add(tfSecondNumber);</span>
+<span class="nc" id="L114">		tfSecondNumber.setColumns(10);</span>
+		
+<span class="nc" id="L116">		lblResult.setBounds(30, 85, 199, 15);</span>
+<span class="nc" id="L117">		frmCalculator.getContentPane().add(lblResult);</span>
+		
+<span class="nc" id="L119">		JButton btnNewButton_4 = new JButton(&quot;x2&quot;);</span>
+<span class="nc" id="L120">		btnNewButton_4.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L122">				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());</span>
+<span class="nc" id="L123">				double result = calc.square(firstNumber);</span>
+<span class="nc" id="L124">				lblResult.setText(&quot;Result: &quot; + result);</span>
+<span class="nc" id="L125">			}</span>
+		});
+<span class="nc" id="L127">		btnNewButton_4.setBounds(12, 109, 87, 25);</span>
+<span class="nc" id="L128">		frmCalculator.getContentPane().add(btnNewButton_4);</span>
+		
+<span class="nc" id="L130">		JButton btnNewButton_5 = new JButton(&quot;RND&quot;);</span>
+<span class="nc" id="L131">		btnNewButton_5.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L133">				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());</span>
+<span class="nc" id="L134">				double result = calc.random(firstNumber);</span>
+<span class="nc" id="L135">				lblResult.setText(&quot;Result: &quot; + result);</span>
+<span class="nc" id="L136">			}</span>
+		});
+<span class="nc" id="L138">		btnNewButton_5.setBounds(12, 135, 87, 25);</span>
+<span class="nc" id="L139">		frmCalculator.getContentPane().add(btnNewButton_5);</span>
+		
+<span class="nc" id="L141">		JButton btnNewButton_6 = new JButton(&quot;ABS&quot;);</span>
+<span class="nc" id="L142">		btnNewButton_6.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L144">				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());</span>
+<span class="nc" id="L145">				double result = calc.absoluteValue(firstNumber);</span>
+<span class="nc" id="L146">				lblResult.setText(&quot;Result: &quot; + result);</span>
+<span class="nc" id="L147">			}</span>
+		});
+<span class="nc" id="L149">		btnNewButton_6.setBounds(12, 159, 87, 25);</span>
+<span class="nc" id="L150">		frmCalculator.getContentPane().add(btnNewButton_6);</span>
+		
+<span class="nc" id="L152">		JButton btnNewButton_8 = new JButton(&quot;log&quot;);</span>
+<span class="nc" id="L153">		btnNewButton_8.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L155">				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());</span>
+<span class="nc" id="L156">				double result = calc.log(firstNumber);</span>
+<span class="nc" id="L157">				lblResult.setText(&quot;Result: &quot; + result);</span>
+<span class="nc" id="L158">			}</span>
+		});
+<span class="nc" id="L160">		btnNewButton_8.setBounds(12, 184, 87, 25);</span>
+<span class="nc" id="L161">		frmCalculator.getContentPane().add(btnNewButton_8);</span>
+		
+<span class="nc" id="L163">		JButton btnNewButton_9 = new JButton(&quot;deg&quot;);</span>
+<span class="nc" id="L164">		btnNewButton_9.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L166">				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());</span>
+<span class="nc" id="L167">				double result = calc.toDegrees(firstNumber);</span>
+<span class="nc" id="L168">				lblResult.setText(&quot;Result: &quot; + result);</span>
+<span class="nc" id="L169">			}</span>
+		});
+<span class="nc" id="L171">		btnNewButton_9.setBounds(12, 208, 87, 25);</span>
+<span class="nc" id="L172">		frmCalculator.getContentPane().add(btnNewButton_9);</span>
+		
+<span class="nc" id="L174">		JButton btnNewButton_10 = new JButton(&quot;rad&quot;);</span>
+<span class="nc" id="L175">		btnNewButton_10.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L177">				double firstNumber = Double.parseDouble(tfFirstNumber.getText().toString());</span>
+<span class="nc" id="L178">				double result = calc.toRadians(firstNumber);</span>
+<span class="nc" id="L179">				lblResult.setText(&quot;Result: &quot; + result);</span>
+<span class="nc" id="L180">			}</span>
+		});
+<span class="nc" id="L182">		btnNewButton_10.setBounds(12, 235, 87, 25);</span>
+<span class="nc" id="L183">		frmCalculator.getContentPane().add(btnNewButton_10);</span>
+		
+		
+<span class="nc" id="L186">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

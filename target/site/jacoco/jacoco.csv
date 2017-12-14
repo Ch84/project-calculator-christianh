@@ -1,3 +1,15 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame.new ActionListener() {...},40,0,0,0,6,0,2,0,2,0
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame.new ActionListener() {...},40,0,0,0,6,0,2,0,2,0
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame.new ActionListener() {...},40,0,0,0,6,0,2,0,2,0
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame.new ActionListener() {...},40,0,0,0,6,0,2,0,2,0
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame.new Runnable() {...},16,0,0,0,7,0,2,0,2,0
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame.new ActionListener() {...},32,0,0,0,5,0,2,0,2,0
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame.new ActionListener() {...},32,0,0,0,5,0,2,0,2,0
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame,346,0,0,0,65,0,3,0,3,0
 project-calculator-christianh,assignment05.project_calculator_christianh,CalculatorBasicOperations,0,28,0,2,0,8,0,6,0,5
-project-calculator-christianh,assignment05.project_calculator_christianh,CalculatorAdvancedOperations,0,27,0,0,0,7,0,7,0,7
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame.new ActionListener() {...},32,0,0,0,5,0,2,0,2,0
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame.new ActionListener() {...},32,0,0,0,5,0,2,0,2,0
+project-calculator-christianh,assignment05.project_calculator_christianh,CalculatorAdvancedOperations,0,28,0,0,0,8,0,7,0,7
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame.new ActionListener() {...},32,0,0,0,5,0,2,0,2,0
+project-calculator-christianh,assignment05.project_calculator_christianh,MainFrame.new ActionListener() {...},32,0,0,0,5,0,2,0,2,0

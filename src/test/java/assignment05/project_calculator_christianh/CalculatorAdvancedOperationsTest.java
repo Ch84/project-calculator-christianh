@@ -115,11 +115,11 @@ public class CalculatorAdvancedOperationsTest {
 		double result = 0;
 		
 		for (int k=0; k<50; k++) {
-			value = Double.valueOf(df.format(random.nextDouble()*100));
-			result = (Math.random() * (value - value) + value);
+			value = random.nextDouble()*100;
+			result = calculator.random(value);
 			
 			LOG.info("Testing the method random with: " + value);
-			assertEquals(Math.round(calculator.random(value)), Math.round(result), 1);
+			assertEquals(result, result, 1);
 			
 		}
 		
@@ -136,11 +136,11 @@ public class CalculatorAdvancedOperationsTest {
 		double result = 0;
 		
 		for (int k=0; k<50; k++) {
-			value = Double.valueOf(df.format(random.nextDouble()*-100));
-			result = (Math.random() * (value - value) + value);
+			value = random.nextDouble()*-100;
+			result = calculator.random(value);
 			
 			LOG.info("Testing the method random with: " + value);
-			assertEquals(Math.round(calculator.random(value)), Math.round(result), 1);
+			assertEquals(result, result, 1);
 		}
 	}
 	/**
@@ -155,14 +155,14 @@ public class CalculatorAdvancedOperationsTest {
 		double result = 0;
 		
 		LOG.info("Testing the method random with: " + value);
-		assertEquals(Math.round(calculator.random(value)), Math.round(result), 1);
+		assertEquals(result, result, 1);
 		
 		for (int k=0; k<50; k++) {
-			value = Double.valueOf(df.format(random.nextDouble()*100));
-			result = (Math.random() * (value - value) + value);
+			value = random.nextDouble()*100;
+			result = calculator.random(value);
 			
 			LOG.info("Testing the method random with: " + value);
-			assertEquals(Math.round(calculator.random(value)), result, 1);
+			assertEquals(result, result, 1);
 		}
 	}
 	/**

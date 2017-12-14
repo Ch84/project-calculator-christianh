@@ -33,7 +33,7 @@ public class CalculatorAdvancedOperations implements CalculatorAdvancedOperation
 	 * is returning a double between the specified values.
 	 * 
 	 * @param value
-	 * @return (Math.random() * (value - value) + value)
+	 * @return random.nextDouble() * value;
 	 */
 	public double random(double value) {
 		Random random = new Random();

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CalculatorAdvancedOperations.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">project-calculator-christianh</a> &gt; <a href="index.source.html" class="el_package">assignment05.project_calculator_christianh</a> &gt; <span class="el_source">CalculatorAdvancedOperations.java</span></div><h1>CalculatorAdvancedOperations.java</h1><pre class="source lang-java linenums">package assignment05.project_calculator_christianh;
 
+import java.util.Random;
+
 /**
  * This is my super class file for my interface. Here I have implemented
  * the functions for my advanced calculator that is used down below.
@@ -11,7 +13,7 @@
  *
  */
 
-<span class="fc" id="L14">public class CalculatorAdvancedOperations implements CalculatorAdvancedOperationsInterface {</span>
+<span class="fc" id="L16">public class CalculatorAdvancedOperations implements CalculatorAdvancedOperationsInterface {</span>
 	/**
 	 * This is my constructor that takes the in parameter value
 	 * and returns the result of the value that is entered. The result
@@ -23,7 +25,7 @@
 	 */
 	public double square(double value) {
 		
-<span class="fc" id="L26">		return Math.pow(value, 2);</span>
+<span class="fc" id="L28">		return Math.pow(value, 2);</span>
 	}
 	/**
 	 * This is my constructor that takes the in parameter value
@@ -31,11 +33,12 @@
 	 * is returning a double between the specified values.
 	 * 
 	 * @param value
-	 * @return (Math.random() * (value - value) + value)
+	 * @return random.nextDouble() * value;
 	 */
 	public double random(double value) {
+<span class="fc" id="L39">		Random random = new Random();</span>
 		
-<span class="fc" id="L38">		return (Math.random() * (value - value) + value);</span>
+<span class="fc" id="L41">		return random.nextDouble() * value;</span>
 	}
 	/**
 	 * This is my constructor that takes the in parameter value
@@ -47,7 +50,7 @@
 	 */
 	public double absoluteValue(double value) {
 		
-<span class="fc" id="L50">		return Math.abs(value);</span>
+<span class="fc" id="L53">		return Math.abs(value);</span>
 	}
 	/**
 	 * This is my constructor that takes the in parameter value
@@ -59,7 +62,7 @@
 	 */
 	public double log(double value) {
 			
-<span class="fc" id="L62">			return Math.log(value);</span>
+<span class="fc" id="L65">			return Math.log(value);</span>
 	}
 	/**
 	 * This is my constructor that takes the in parameter value
@@ -72,7 +75,7 @@
 	 */
 	public double toDegrees(double value) {
 		
-<span class="fc" id="L75">		return Math.toDegrees(value);</span>
+<span class="fc" id="L78">		return Math.toDegrees(value);</span>
 	}
 	/**
 	 * This is my constructor that takes the in parameter value
@@ -85,7 +88,7 @@
 	 */
 	public double toRadians(double value) {
 		
-<span class="fc" id="L88">		return Math.toRadians(value);</span>
+<span class="fc" id="L91">		return Math.toRadians(value);</span>
 	}
 	
 }

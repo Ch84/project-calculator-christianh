@@ -2,126 +2,126 @@
 <testng-results skipped="0" failed="0" total="29" passed="29">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="2837" started-at="2017-12-12T16:55:08Z" finished-at="2017-12-12T16:55:11Z">
+  <suite name="Surefire suite" duration-ms="2865" started-at="2017-12-14T14:47:33Z" finished-at="2017-12-14T14:47:36Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="2837" started-at="2017-12-12T16:55:08Z" finished-at="2017-12-12T16:55:11Z">
+    <test name="Surefire test" duration-ms="2865" started-at="2017-12-14T14:47:33Z" finished-at="2017-12-14T14:47:36Z">
       <class name="assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest">
-        <test-method status="PASS" signature="testRandomWithPositiveNumbers()[pri:0, instance:testRandomWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testRandomWithPositiveNumbers" duration-ms="83" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testRandomWithPositiveNumbers()[pri:0, instance:testRandomWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testRandomWithPositiveNumbers" duration-ms="58" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRandomWithPositiveNumbers -->
-        <test-method status="PASS" signature="testRandomWithNegativeNumbers()[pri:0, instance:testRandomWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testRandomWithNegativeNumbers" duration-ms="63" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testRandomWithNegativeNumbers()[pri:0, instance:testRandomWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testRandomWithNegativeNumbers" duration-ms="57" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRandomWithNegativeNumbers -->
-        <test-method status="PASS" signature="testtoDegreesWithZeros()[pri:0, instance:testtoDegreesWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoDegreesWithZeros" duration-ms="53" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testtoDegreesWithZeros()[pri:0, instance:testtoDegreesWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoDegreesWithZeros" duration-ms="44" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testtoDegreesWithZeros -->
-        <test-method status="PASS" signature="testtoRadiansWithPositiveNumbers()[pri:0, instance:testtoRadiansWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoRadiansWithPositiveNumbers" duration-ms="73" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testtoRadiansWithPositiveNumbers()[pri:0, instance:testtoRadiansWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoRadiansWithPositiveNumbers" duration-ms="63" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testtoRadiansWithPositiveNumbers -->
-        <test-method status="PASS" signature="testtoRadiansWithZeros()[pri:0, instance:testtoRadiansWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoRadiansWithZeros" duration-ms="51" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testtoRadiansWithZeros()[pri:0, instance:testtoRadiansWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoRadiansWithZeros" duration-ms="42" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testtoRadiansWithZeros -->
-        <test-method status="PASS" signature="testabsoluteValueWithZeros()[pri:0, instance:testabsoluteValueWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testabsoluteValueWithZeros" duration-ms="31" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testabsoluteValueWithZeros()[pri:0, instance:testabsoluteValueWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testabsoluteValueWithZeros" duration-ms="42" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testabsoluteValueWithZeros -->
-        <test-method status="PASS" signature="testtoRadiansWithNegativeNumbers()[pri:0, instance:testtoRadiansWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoRadiansWithNegativeNumbers" duration-ms="38" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testtoRadiansWithNegativeNumbers()[pri:0, instance:testtoRadiansWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoRadiansWithNegativeNumbers" duration-ms="49" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testtoRadiansWithNegativeNumbers -->
-        <test-method status="PASS" signature="testabsoluteValueWithPositiveNumbers()[pri:0, instance:testabsoluteValueWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testabsoluteValueWithPositiveNumbers" duration-ms="49" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testabsoluteValueWithPositiveNumbers()[pri:0, instance:testabsoluteValueWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testabsoluteValueWithPositiveNumbers" duration-ms="53" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testabsoluteValueWithPositiveNumbers -->
-        <test-method status="PASS" signature="testabsoluteValueWithNegativeNumbers()[pri:0, instance:testabsoluteValueWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testabsoluteValueWithNegativeNumbers" duration-ms="52" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testabsoluteValueWithNegativeNumbers()[pri:0, instance:testabsoluteValueWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testabsoluteValueWithNegativeNumbers" duration-ms="31" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testabsoluteValueWithNegativeNumbers -->
-        <test-method status="PASS" signature="testtoDegreesWithPositiveNumbers()[pri:0, instance:testtoDegreesWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoDegreesWithPositiveNumbers" duration-ms="33" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testtoDegreesWithPositiveNumbers()[pri:0, instance:testtoDegreesWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoDegreesWithPositiveNumbers" duration-ms="63" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testtoDegreesWithPositiveNumbers -->
-        <test-method status="PASS" signature="testtoDegreesWithNegativeNumbers()[pri:0, instance:testtoDegreesWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoDegreesWithNegativeNumbers" duration-ms="52" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testtoDegreesWithNegativeNumbers()[pri:0, instance:testtoDegreesWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testtoDegreesWithNegativeNumbers" duration-ms="49" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testtoDegreesWithNegativeNumbers -->
-        <test-method status="PASS" signature="testSquareWithPositiveNumbers()[pri:0, instance:testSquareWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testSquareWithPositiveNumbers" duration-ms="41" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testSquareWithPositiveNumbers()[pri:0, instance:testSquareWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testSquareWithPositiveNumbers" duration-ms="45" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSquareWithPositiveNumbers -->
-        <test-method status="PASS" signature="testSquareWithNegativeNumbers()[pri:0, instance:testSquareWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testSquareWithNegativeNumbers" duration-ms="26" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testSquareWithNegativeNumbers()[pri:0, instance:testSquareWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testSquareWithNegativeNumbers" duration-ms="33" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSquareWithNegativeNumbers -->
-        <test-method status="PASS" signature="testRandomWithZeros()[pri:0, instance:testRandomWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testRandomWithZeros" duration-ms="35" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testRandomWithZeros()[pri:0, instance:testRandomWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testRandomWithZeros" duration-ms="91" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRandomWithZeros -->
-        <test-method status="PASS" signature="testSquareWithZeros()[pri:0, instance:testSquareWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testSquareWithZeros" duration-ms="43" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testSquareWithZeros()[pri:0, instance:testSquareWithZeros(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testSquareWithZeros" duration-ms="49" started-at="2017-12-14T15:47:36Z" finished-at="2017-12-14T15:47:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSquareWithZeros -->
-        <test-method status="PASS" signature="testLogWithPositiveNumbers()[pri:0, instance:testLogWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testLogWithPositiveNumbers" duration-ms="60" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testLogWithPositiveNumbers()[pri:0, instance:testLogWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testLogWithPositiveNumbers" duration-ms="43" started-at="2017-12-14T15:47:36Z" finished-at="2017-12-14T15:47:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogWithPositiveNumbers -->
-        <test-method status="PASS" signature="testLogWithNegativeNumbers()[pri:0, instance:testLogWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testLogWithNegativeNumbers" duration-ms="53" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:11Z">
+        <test-method status="PASS" signature="testLogWithNegativeNumbers()[pri:0, instance:testLogWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest)]" name="testLogWithNegativeNumbers" duration-ms="43" started-at="2017-12-14T15:47:36Z" finished-at="2017-12-14T15:47:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogWithNegativeNumbers -->
       </class> <!-- assignment05.project_calculator_christianh.CalculatorAdvancedOperationsTest -->
       <class name="assignment05.project_calculator_christianh.CalculatorBasicOperationsTest">
-        <test-method status="PASS" signature="testMultiplicationWithNegativeNumbers()[pri:0, instance:testMultiplicationWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testMultiplicationWithNegativeNumbers" duration-ms="382" started-at="2017-12-12T17:55:08Z" finished-at="2017-12-12T17:55:08Z">
+        <test-method status="PASS" signature="testMultiplicationWithNegativeNumbers()[pri:0, instance:testMultiplicationWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testMultiplicationWithNegativeNumbers" duration-ms="419" started-at="2017-12-14T15:47:33Z" finished-at="2017-12-14T15:47:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiplicationWithNegativeNumbers -->
-        <test-method status="PASS" signature="testSubtractionWithZero()[pri:0, instance:testSubtractionWithZero(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testSubtractionWithZero" duration-ms="243" started-at="2017-12-12T17:55:08Z" finished-at="2017-12-12T17:55:09Z">
+        <test-method status="PASS" signature="testSubtractionWithZero()[pri:0, instance:testSubtractionWithZero(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testSubtractionWithZero" duration-ms="266" started-at="2017-12-14T15:47:33Z" finished-at="2017-12-14T15:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubtractionWithZero -->
-        <test-method status="PASS" signature="testMultiplicationWithZeros()[pri:0, instance:testMultiplicationWithZeros(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testMultiplicationWithZeros" duration-ms="135" started-at="2017-12-12T17:55:09Z" finished-at="2017-12-12T17:55:09Z">
+        <test-method status="PASS" signature="testMultiplicationWithZeros()[pri:0, instance:testMultiplicationWithZeros(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testMultiplicationWithZeros" duration-ms="156" started-at="2017-12-14T15:47:34Z" finished-at="2017-12-14T15:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiplicationWithZeros -->
-        <test-method status="PASS" signature="testDivisionWithZeros()[pri:0, instance:testDivisionWithZeros(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testDivisionWithZeros" duration-ms="92" started-at="2017-12-12T17:55:09Z" finished-at="2017-12-12T17:55:09Z">
+        <test-method status="PASS" signature="testDivisionWithZeros()[pri:0, instance:testDivisionWithZeros(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testDivisionWithZeros" duration-ms="146" started-at="2017-12-14T15:47:34Z" finished-at="2017-12-14T15:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivisionWithZeros -->
-        <test-method status="PASS" signature="testDivisionWithPositiveNumbers()[pri:0, instance:testDivisionWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testDivisionWithPositiveNumbers" duration-ms="117" started-at="2017-12-12T17:55:09Z" finished-at="2017-12-12T17:55:09Z">
+        <test-method status="PASS" signature="testDivisionWithPositiveNumbers()[pri:0, instance:testDivisionWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testDivisionWithPositiveNumbers" duration-ms="136" started-at="2017-12-14T15:47:34Z" finished-at="2017-12-14T15:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivisionWithPositiveNumbers -->
-        <test-method status="PASS" signature="testDivisionWithNegativeNumbers()[pri:0, instance:testDivisionWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testDivisionWithNegativeNumbers" duration-ms="85" started-at="2017-12-12T17:55:09Z" finished-at="2017-12-12T17:55:09Z">
+        <test-method status="PASS" signature="testDivisionWithNegativeNumbers()[pri:0, instance:testDivisionWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testDivisionWithNegativeNumbers" duration-ms="108" started-at="2017-12-14T15:47:34Z" finished-at="2017-12-14T15:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivisionWithNegativeNumbers -->
-        <test-method status="PASS" signature="testSubtractionWithPositiveNumbers()[pri:0, instance:testSubtractionWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testSubtractionWithPositiveNumbers" duration-ms="117" started-at="2017-12-12T17:55:09Z" finished-at="2017-12-12T17:55:09Z">
+        <test-method status="PASS" signature="testSubtractionWithPositiveNumbers()[pri:0, instance:testSubtractionWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testSubtractionWithPositiveNumbers" duration-ms="117" started-at="2017-12-14T15:47:34Z" finished-at="2017-12-14T15:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubtractionWithPositiveNumbers -->
-        <test-method status="PASS" signature="testAdditionWithZero()[pri:0, instance:testAdditionWithZero(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testAdditionWithZero" duration-ms="118" started-at="2017-12-12T17:55:09Z" finished-at="2017-12-12T17:55:09Z">
+        <test-method status="PASS" signature="testAdditionWithZero()[pri:0, instance:testAdditionWithZero(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testAdditionWithZero" duration-ms="126" started-at="2017-12-14T15:47:34Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdditionWithZero -->
-        <test-method status="PASS" signature="testSubtractionWithNegativeNumbers()[pri:0, instance:testSubtractionWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testSubtractionWithNegativeNumbers" duration-ms="95" started-at="2017-12-12T17:55:09Z" finished-at="2017-12-12T17:55:09Z">
+        <test-method status="PASS" signature="testSubtractionWithNegativeNumbers()[pri:0, instance:testSubtractionWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testSubtractionWithNegativeNumbers" duration-ms="59" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubtractionWithNegativeNumbers -->
-        <test-method status="PASS" signature="testAdditionWithPositiveNumbers()[pri:0, instance:testAdditionWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testAdditionWithPositiveNumbers" duration-ms="62" started-at="2017-12-12T17:55:09Z" finished-at="2017-12-12T17:55:09Z">
+        <test-method status="PASS" signature="testAdditionWithPositiveNumbers()[pri:0, instance:testAdditionWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testAdditionWithPositiveNumbers" duration-ms="57" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdditionWithPositiveNumbers -->
-        <test-method status="PASS" signature="testMultiplicationWithPositiveNumbers()[pri:0, instance:testMultiplicationWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testMultiplicationWithPositiveNumbers" duration-ms="91" started-at="2017-12-12T17:55:09Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testMultiplicationWithPositiveNumbers()[pri:0, instance:testMultiplicationWithPositiveNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testMultiplicationWithPositiveNumbers" duration-ms="84" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiplicationWithPositiveNumbers -->
-        <test-method status="PASS" signature="testAdditionWithNegativeNumbers()[pri:0, instance:testAdditionWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testAdditionWithNegativeNumbers" duration-ms="66" started-at="2017-12-12T17:55:10Z" finished-at="2017-12-12T17:55:10Z">
+        <test-method status="PASS" signature="testAdditionWithNegativeNumbers()[pri:0, instance:testAdditionWithNegativeNumbers(assignment05.project_calculator_christianh.CalculatorBasicOperationsTest)]" name="testAdditionWithNegativeNumbers" duration-ms="65" started-at="2017-12-14T15:47:35Z" finished-at="2017-12-14T15:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdditionWithNegativeNumbers -->
